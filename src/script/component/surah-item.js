@@ -44,16 +44,17 @@ class SurahItem extends HTMLElement {
       </style>
 
       <div class="surah-info">
-        <h2> Nama : ${this._surah1.nama}</h2>
-        <p> Arti : ${this._surah1.arti}</p>
-        <p> Asma : ${this._surah1.asma}</p>
-        <p> Type : ${this._surah1.type}</p>
-        <p> Ayat : ${this._surah1.ayat}</p>
-        <p> Audio : ${this._surah1.audio}</p>
-        <p> Keterangan : ${this._surah1.keterangan}</p>
         <p> Nomor : ${this._surah1.nomor}</p>
-        <p> Rukuk : ${this._surah1.rukuk}</p>
+        <h2> Nama : ${this._surah1.nama}</h2>
+        <p> Asma : ${this._surah1.asma}</p>
+        <p> Name : ${this._surah1.name}</p>
+        <p> Start : ${this._surah1.start}</p>
+        <p> Ayat : ${this._surah1.ayat}</p>
+        <p> Type : ${this._surah1.type}</p>
         <p> Urut : ${this._surah1.urut}</p>
+        <p> Rukuk : ${this._surah1.rukuk}</p>
+        <p> Arti : ${this._surah1.arti}</p>
+        <p> Keterangan : ${this._surah1.keterangan}</p>
       </div>
     `;
   }
